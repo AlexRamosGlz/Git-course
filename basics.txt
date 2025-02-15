@@ -1,4 +1,4 @@
-#		 Comandos Basicos en Git 		##
+##		 Comandos Basicos en Git 		##
 git init #crea un repositorio vacio
 
 
@@ -29,6 +29,30 @@ Date:   Fri Feb 14 21:02:56 2025 -0600
 
 -- git reset -- 
 
-git reset <commit> -> Reset current HEAD to the specified state
+git reset --hard  <commit> -> resetea el HEAD al commit especificado, borrando los cambios posteriores
 
 
+## -- ANTES DE git reset --
+~/Desktop/Software/Git | test  git log --oneline                                                            ok | 15:04:44 
+0e84955 (HEAD -> test) tail de \/etc\/passwd  agregado a basics.txt
+791a571 basic.txt modificado
+886e0a1 (origin/test) test.sh  deleted
+60abb77 Primer mensaje de commit usando vim
+c0f4f32 test
+3d78bbb (main) test commit
+
+ ~/Desktop/Software/Git | test  git reset --hard 791a571                                                     ok | 15:05:10 
+HEAD está ahora en 791a571 basic.txt modificado
+
+## -- DESPUES DE git reset --
+ ~/Desktop/Software/Git | test  git log --oneline                                                            ok | 15:05:47 
+791a571 (HEAD -> test) basic.txt modificado
+886e0a1 (origin/test) test.sh  deleted
+60abb77 Primer mensaje de commit usando vim
+c0f4f32 test
+3d78bbb (main) test commit
+
+
+-- git diff --
+
+git diff <branch> <branch>  -> nos muestra la diferencia entre archivos entre ramas, o diferencia de archives de la misma rama antes del commit 
