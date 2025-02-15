@@ -1,12 +1,30 @@
-##		 Comandos Basicos en Git 		##
-
+#		 Comandos Basicos en Git 		##
 git init #crea un repositorio vacio
 
 
+-- git status --
+
+git status -> nos muestra el estado en que esta nuestra brancht
+
+En la rama test
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	.gitignore
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
 
 
 
+-- git log --
 
+git log -> muestra el log de todos los movimientos en la rama
+
+git log                                           ok | 1m 39s | 21:11:32 
+commit 60abb776211f4464c2518b635b1db35474afa7c6 (HEAD -> test)
+Author: AlexRamosGlz <joralexfx@gmail.com>
+Date:   Fri Feb 14 21:02:56 2025 -0600
+
+    Primer mensaje de commit usando vim
 
 
 
