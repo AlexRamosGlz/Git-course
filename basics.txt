@@ -27,5 +27,8 @@ Date:   Fri Feb 14 21:02:56 2025 -0600
     Primer mensaje de commit usando vim
 
 
+-- git reset -- 
+
+git reset <commit> -> Reset current HEAD to the specified state
 
 
