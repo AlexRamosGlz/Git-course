@@ -1,3 +1,13 @@
+##		 Comandos Basicos en Git 		##
+
 git init #crea un repositorio vacio
+
+
+
+
+
+
+
+
 
 
