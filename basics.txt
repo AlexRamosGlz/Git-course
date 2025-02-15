@@ -56,3 +56,14 @@ c0f4f32 test
 -- git diff --
 
 git diff <branch> <branch>  -> nos muestra la diferencia entre archivos entre ramas, o diferencia de archives de la misma rama antes del commit 
+
+-- git reflog  --
+
+git reflog 	-> muestra el historial de todos los movimientos que se han hecho en el repositorio
+
+
+-- git tag --
+
+git tag 	-> nos sirve para taggear un commit con la descripcion que queramos, se usa tambien con 'git checkout tags/<tag_name>' para movernos al commit 
+
+git checkout tags/test_1
