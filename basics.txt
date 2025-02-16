@@ -80,4 +80,12 @@ git switch <branch> 	-> se usa para cambiar de rama
 
 git merge <target_branch> ->  junta los commits de la branch actual con la branch objetivo
 
-afgsaw
+
+
+-- git stash -- 
+
+git stash 	-> guarda localmente los cambios hechos en la rama sin hacerles commit, se usa cuando quieres cambiar de rama sin hacer commit
+
+git stash pop   -> te regresa los cambios que dejaste en stash
+
+git stash drop	-> elimina los cambios dejados en stash
