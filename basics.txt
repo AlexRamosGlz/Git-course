@@ -78,4 +78,6 @@ git switch <branch> 	-> se usa para cambiar de rama
 
 -- git merge --
 
-git merge <branch_to_merge> ->  fuciona los merges de la branch actual con la 'branch_to_merge'
+git merge <target_branch> ->  junta los commits de la branch actual con la branch objetivo
+
+afgsaw
