@@ -89,3 +89,8 @@ git stash 	-> guarda localmente los cambios hechos en la rama sin hacerles commi
 git stash pop   -> te regresa los cambios que dejaste en stash
 
 git stash drop	-> elimina los cambios dejados en stash
+
+
+-- git branch --
+
+git branch -d <branch_name>  -> elimina la rama 
