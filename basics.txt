@@ -67,3 +67,15 @@ git reflog 	-> muestra el historial de todos los movimientos que se han hecho en
 git tag 	-> nos sirve para taggear un commit con la descripcion que queramos, se usa tambien con 'git checkout tags/<tag_name>' para movernos al commit 
 
 git checkout tags/test_1
+
+
+
+-- git switch -- 
+
+git switch <branch> 	-> se usa para cambiar de rama
+
+
+
+-- git merge --
+
+git merge <target_branch> ->  junta los commits de la branch actual con la branch objetivo
