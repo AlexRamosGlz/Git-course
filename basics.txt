@@ -1,6 +1,11 @@
 ##		 Comandos Basicos en Git 		##
 git init #crea un repositorio vacio
 
+-- git add --
+git add <file_name>  -> agrega los documentso especificados a la staging area o index.
+
+la stagin area es un archivo de git que contiene toda la informacion acerca de los archivos y cambios que se agregaran en el siguiente commit
+
 
 -- git status --
 

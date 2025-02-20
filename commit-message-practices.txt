@@ -1,0 +1,16 @@
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# En la rama coursera-introduction-git-github
+# Cambios a ser confirmados:
+#       modificados:     basics.txt
+#       borrados:        feature.sh
+#       nuevos archivos: test.py
+#
+
+HOTFIX: bug arreglado en example.py -> se empieza por un resumen de lo que se hizo, aproximadamente un mensaje de 50 caracteres
+
+Bug arreglado en example.py que hacia que una funcion no retornara el valor correctamente -> en otro parrafo se incluye una descripcion mas amplia del cambio, pero cada linea deberia ser menor a 72 caracteres
+
+Numer de ticket #79C1K1 -> siempre se puede agregar mas lineas para agregar documentacion, tickets o issues.
+
