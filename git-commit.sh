@@ -8,6 +8,9 @@ git commit -a # -> es un atajo para mandar al stage area los archivos que estan 
 # en otras palabras estamos omitiendo la staging area, el comando se utilizar para hacer commit a archivos actualizados que ya estan dentro de la stagin area, por ende solo es posible agregar una pequena descripcion.
 
 
+##    -- ammending commits -- ##
+git commit --amend # el comando hace que se sobreescriba el commit, es util en caso de no haber escrito una descripcion concisa la ultima vez
+
 
 ##    -- commit message best practice --    ##
 
