@@ -6,7 +6,7 @@ import sys
 def check_reboot():
     """Returns true if the computer has a pendig reboot."""
     return os.path.exists("/run/reboot-required")
-dwgs
+
 def main():
     if  check_reboot():
         print("Pending Reboot.")
