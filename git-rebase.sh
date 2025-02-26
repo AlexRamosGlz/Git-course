@@ -7,7 +7,7 @@ git rebase master # rebase es usado como una alternativa a merge, mantiene el hi
 
 git rebase origin/courser-introduction-git-github # se puede aplicar hacer merge de branches locales con remotas
 
-##  Combinar (squashing) cambios de 2 diferentes commits en uno
+##  Combinar (squashing) cambios de 2 o mas diferentes commits en uno
 git rebase -i master # muestra una interfaz interactiva 
 
 #pick 1180735 cambios con squash
